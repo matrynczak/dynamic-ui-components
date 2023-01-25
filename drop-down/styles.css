@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.options {
+    display: none;
+}
+
+.title {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.expanded {
+    display: flex; 
+    flex-direction: column;
+}
+
+.collapsed {
+    display: none;
+}
+
+.single-option {
+    width: 300px;
+}

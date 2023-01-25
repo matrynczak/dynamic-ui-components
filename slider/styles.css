@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 20px solid orange;
+    padding: 10px;
+    background-color: beige;
+}
+
+.slides-list {
+    width: 80vw;
+    height: 90vh;
+    visibility: hidden;
+    margin: 0;
+}
+
+.slides-list img {
+    width: 80vw;
+    height: 85vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.slide-1-img {
+    position: absolute;
+    margin-top: 2.5vh;
+}
+
+.slide-2-img {
+    margin-top: 2.5vh;
+    position: absolute;
+}
+
+.slide-3-img {
+    position: absolute;
+    margin-top: 2.5vh;
+}
+
+.slide-4-img {
+    position: absolute;
+    margin-top: 2.5vh;
+}
+
+.slide-5-img {
+    position: absolute;
+    margin-top: 2.5vh;
+}
+
+img[class*=arrow] {
+    width: 50px;
+    height: 50px;
+}
+
+.next-arrow {
+    position: absolute;
+    margin: 45vh;
+    z-index: 10;
+    margin-left: 84vw;
+}
+
+.prev-arrow {
+    margin-left: -2vw;
+    position: absolute;
+    margin-top: 45vh;
+}
+
+.slides-dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    margin-top: 80vh;
+    margin-left: 35vw;
+}
+
+[class*="dot-icon-"] {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+  }	
+
+  .dot-selected {
+    background-color: white;
+  }
+
+  .selected {
+    visibility: visible;
+    animation: move 2s;
+}
+
+  @keyframes move {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

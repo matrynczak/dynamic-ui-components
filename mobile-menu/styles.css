@@ -1,0 +1,195 @@
+/*ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-container {
+    width: 200px;
+    height: 300px;
+    background-color: darkblue;
+    position: static;
+}
+
+.main-items {
+    height: inherit;
+    font-weight: bolder;
+    color: white;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    border-bottom: 3px solid white;
+}
+
+.submenu {
+    width: 200px;
+    height: 295px;
+    background-color: darkblue;
+    margin-top: -300px;
+    margin-left: 0px;
+    position: relative;
+    
+}
+
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+
+.displayed {
+    display: flex;
+    justify-content: space-between;
+    animation: fade_in_show 0.5s
+}
+
+.not-displayed {
+    display: none;
+}
+
+.close-btn {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    background-color: red;
+}
+
+.sport-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.sport-menu li {
+    border-bottom: 3px solid white;
+}
+
+#hamburger-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.wrapper {
+    justify-content: space-between;
+}*/
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+    position: static;
+}
+
+.main-items {
+    height: inherit;
+    width: 75%;
+    font-weight: bolder;
+    color: white;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    border-bottom: 3px solid white;
+    font-size: x-large;
+}
+
+.submenu {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+    margin-top: -100vh;
+    margin-left: 0px;
+    position: relative;
+}
+
+@keyframes fade_in_show {
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
+}
+
+.displayed {
+    display: flex;
+    justify-content: space-between;
+    animation: fade_in_show 0.5s
+}
+
+.not-displayed {
+    display: none;
+}
+
+.close-btn {
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+    background-color: red;
+}
+
+.sport-menu {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    width: 75%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.sport-menu li {
+    border-bottom: 3px solid white;
+    font-size: x-large;
+}
+
+#hamburger-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.wrapper {
+    justify-content: space-between;
+}
